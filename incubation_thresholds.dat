@@ -1,0 +1,42 @@
+target	order	parameter	Dmin	Dmax	Cmin	Cmax	Bmin	Bmax	Amin	Amax	Ruthmin	Ruthmax
+GLOBAL	1	flow	300		300	335	300	335	300	335	360	390
+GLOBAL	1	MEANflow	200		300	335	300	335	300	335	370	380
+GLOBAL	1	flowMAX			300	340	300	335	300	335	360	380
+GLOBAL	1	flowMIN			300		325		325		360	
+GLOBAL	1	flowSD		0.5		0.75		0.75		0.75		0.75
+GLOBAL	2	exhaust	40	150	15	150	30	100	30	100	30	100
+GLOBAL	2	exhaustMAX		150				100		100		100
+GLOBAL	2	exhaustMIN	40		15	150	30		30		30	
+GLOBAL	2	exhaustSD				0.5		1		1		1
+variable1	3	p_flow			200	350	200	350				
+variable2	3	MEANp_flow					300		330		375	
+CLD	4	CLD_Temp	44.7	45.5	44.7		44.7		44.7	45.3	44.7	45.3
+CLD	4	CLD_Press	19.5						19.25	20.4	19	21
+CLD	4	CLD_warning										
+CLD	4	CLD_error										
+QCLN2O	5	rg_N2O_ppb		5		5		5		5		16
+QCLN2O	5	sd_N2O_ppb		1.5		1.5		1.5		1.5		5
+QCLCO2	6	rg_CO2_ppm		8		5		5		5		5
+QCLCO2	6	sd_CO2_ppm		2		1.5		1.5		1.5		1.5
+QCLCH4	7	rg_CH4_ppb		12		12		12		12		5
+QCLCH4	7	sd_CH4_ppb		3		3		3		3		1.5
+QCLH2O	8	rg_H2O_ppm										
+QCLH2O	8	sd_H2O_ppm										
+LiCO2	9	Li_CO2MAX										
+LiCO2	9	Li_CO2max										
+LiCO2	9	Li_CO2RG		7		1.5		1.5		1.5		
+LiCO2	9	Li_CO2SD		2		0.5		0.5		0.5		
+LiH2O	10	Li_H2OMAX										
+LiH2O	10	Li_H2Omax										
+LiH2O	10	Li_H2ORG										
+LiH2O	10	Li_H2OSD										
+PICARRON2O	11	PICARRON2O_rg				50		50				
+PICARRON2O	11	PICARRON2O_sd				10		12				
+PICARROCO2	12	PICARROCO2_rg				3		3				
+PICARROCO2	12	PICARROCO2_sd				1		1				
+PICARROCH4	13	PICARROCH4_rg				6		6				
+PICARROCH4	13	PICARROCH4_sd				2		2				
+PICARROH2O	14	PICARROH2O_rg										
+PICARROH2O	14	PICARROH2O_sd										
+PICARRONH3	15	PICARRONH3_rg										
+PICARRONH3	15	PICARRONH3_sd										
